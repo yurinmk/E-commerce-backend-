@@ -16,7 +16,7 @@ const cors = require("cors");
 const path = require("path");
 
 const server = express();
-const APP_PORT = process.env.APP_PORT;
+const APP_PORT = 3333;
 
 const ProductRoutes = require("./routes/ProductRoutes");
 
